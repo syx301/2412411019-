@@ -40,3 +40,18 @@
 
 ```bash
 pip install -r requirements.txt
+
+### 2. 准备数据
+
+从 Hugging Face 下载数据：
+
+- [10米高度数据集](https://huggingface.co/datasets/Antajitters/WindSpeed_10m)
+- [50米高度数据集](https://huggingface.co/datasets/Antajitters/WindSpeed_50m)
+- [100米高度数据集](https://huggingface.co/datasets/Antajitters/WindSpeed_100m)
+
+将三个数据集合并为 `WindSpeed_merged.csv`，放入项目根目录。
+
+### 3. 运行主程序
+
+```bash
+python wind_speed_prediction.py
